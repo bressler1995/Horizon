@@ -1,0 +1,71 @@
+body {
+  background-color: #111;
+  display: block;
+  height: 100%;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'Playfair Display';
+}
+
+p, span, a, button, input {
+  font-family: 'Montserrat';
+}
+
+@media (max-width: 767.9px) {
+  .eccent_horizon {
+    font-size: 44px;
+    letter-spacing: 5px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 768px) {
+  .eccent_horizon {
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: 700;
+  }
+}
+
+.container {
+  max-width: 1200px !important;
+  padding: 30px !important;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+a, button {
+  font-weight: 400 !important;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFF;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+
+.eccent_section_display {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 350px;
+}
+
+.date_title {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
