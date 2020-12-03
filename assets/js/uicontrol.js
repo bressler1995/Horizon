@@ -109,8 +109,8 @@ function set_follow(followinput) {
     console.log("Route 2: " + route_2);
     
     if(route_1 > route_2) {
-        window.location.href = 'route1.html';
+        window.location.href = 'route1/index.html';
     } else {
-         window.location.href = 'route2.html';
+         window.location.href = 'route2/index.html';
     }
 }
