@@ -7,6 +7,7 @@ function setup() {
   
   createCanvas(windowWidth, windowHeight);
   noStroke();
+  frameRate(30);
 }
 
 function draw() {
