@@ -53,17 +53,17 @@ function draw() {
   pop();
 
   push();
-  fill(100, 100, 200, 20);
+  fill(50, 50, 100, 20);
   ellipse(windowWidth / 2, windowHeight - 70, 450, 45);
   pop();
 
   push();
-  fill(220, 150, 20, 10);
+  fill(220, 220, 20, 10);
   ellipse(windowWidth / 2, windowHeight - 70, 400, 32);
   pop();
 
   push();
-  fill(255, 50, 0, 7);
+  fill(255, 50, 0, 15);
   ellipse(windowWidth / 2, windowHeight - 70, 370, 10);
   pop();
   
