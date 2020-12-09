@@ -32,6 +32,11 @@ function draw() {
   }
 
   push();
+  fill(230, 230, 255, 15);
+  ellipse(windowWidth / 2, windowHeight - 70, windowWidth + 170, 145);
+  pop();
+
+  push();
   fill(230, 230, 255, 10);
   ellipse(windowWidth / 2, windowHeight - 70, windowWidth + 120, 135);
   pop();
@@ -47,17 +52,17 @@ function draw() {
   pop();
 
   push();
-  fill(230, 230, 255, 20);
+  fill(100, 100, 200, 20);
   ellipse(windowWidth / 2, windowHeight - 70, 450, 45);
   pop();
 
   push();
-  fill(230, 230, 255, 10);
+  fill(220, 150, 20, 10);
   ellipse(windowWidth / 2, windowHeight - 70, 400, 32);
   pop();
 
   push();
-  fill(230, 230, 255, 5);
+  fill(255, 50, 0, 7);
   ellipse(windowWidth / 2, windowHeight - 70, 370, 10);
   pop();
   
@@ -74,7 +79,7 @@ function snowflake() {
 
   // radius of snowflake spiral
   // chosen so the snowflakes are uniformly spread out in area
-  this.radius = sqrt(random(pow(width / 5, 2)));
+  this.radius = sqrt(random(pow(width / 7, 2)));
 
   this.update = function(time) {
     // x position follows a circle
